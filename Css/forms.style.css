@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    background-image: url("../Img/fundo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.form{
+    width: 35vw;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #ff6961;
+    box-shadow: 5px 5px 10px #c63637;
+    border-radius: 10px;
+    padding: 2rem;
+}
+.form-header{
+    margin-bottom: 1rem;
+    background-color: #e2504c;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #c63637;
+}
+.form-title{
+    padding: 1rem;
+    color: #232323;
+}
+.form-section{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+    font-weight: bold;
+    color: #232323;
+}
+.input-box input {
+    margin: 0.5rem 0;
+    padding: 0.7rem 1.2rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px #c63637;
+}
+.input-box input:hover {
+    background-color: #f4f4f4;
+}
+#mail{
+    width: 100%;
+}
+.confirm-button{
+    display: flex;
+    justify-content: center;
+}
+.confirm-button button{
+    width: 40%;
+    margin-top: 0.5rem;
+    background-color: #333333;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+.confirm-button button:hover {
+    background-color: #000;
+}
+.confirm-button button a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
